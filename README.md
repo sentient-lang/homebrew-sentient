@@ -3,7 +3,7 @@
 [Homebrew](http://brew.sh/) formulae to install [Sentient](http://sentient-lang.org/).
 
 ```console
-$ brew tap sentient-lang/sentient
+$ brew tap sentient-lang/sentient-lang
 $ brew install sentient-lang
 ```
 
