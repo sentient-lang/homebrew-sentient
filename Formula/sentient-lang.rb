@@ -9,8 +9,8 @@ class SentientLang < Formula
   head "https://github.com/sentient-lang/sentient-lang.git"
 
   depends_on "node"
-  depends_on "riss" => :optional
-  depends_on "lingeling" => :optional
+  depends_on "sentient-lang/riss/riss" => :optional
+  depends_on "sentient-lang/lingeling/lingeling" => :optional
 
   def install
     system "npm", "install", *Language::Node.std_npm_install_args(libexec)
