@@ -3,9 +3,9 @@ require "language/node"
 class SentientLang < Formula
   desc "Sentient Language Compiler and Runtime"
   homepage "http://sentient-lang.org/"
-  url "https://github.com/sentient-lang/sentient-lang/archive/v0.0.0-alpha.42.tar.gz"
-  version "0.0.0-alpha.42"
-  sha256 "5e4b88a11bffabb07f4c9475c9d4fa013501a5eb04e804cd0be9e42ab24c8931"
+  url "https://github.com/sentient-lang/sentient-lang/archive/v0.0.0-beta.1.tar.gz"
+  version "0.0.0-beta.1"
+  sha256 "64ab82bd872cef0f3adea3affe91a82c905710a0f2079787272a5b485699d704"
   head "https://github.com/sentient-lang/sentient-lang.git"
 
   depends_on "node"
